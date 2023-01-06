@@ -20,9 +20,10 @@ Config Options for eosio::chain_plugin:
   --action-blacklist arg                Action (in the form code::action) added
                                         to action blacklist (may specify 
                                         multiple times)
-                                        ```
+```
 
 Run this script to download and add to the end of file config.ini
+
 ```
 #!/bin/bash
 
