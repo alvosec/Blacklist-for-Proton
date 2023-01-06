@@ -24,6 +24,12 @@ Config Options for eosio::chain_plugin:
 
 Run this script to download and add to the end of file config.ini
 
+Check integraty of the file (4e8a2e3daf14af1327994f8d38bbcd8e09574b844229f4f78c7bb96fd2560c26):
+
+```
+sha256sum blacklist.ini
+```
+
 ```
 #!/bin/bash
 
