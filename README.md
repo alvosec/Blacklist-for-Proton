@@ -36,5 +36,5 @@ sha256sum blacklist.ini
 # Download the blacklist.ini file
 curl -O https://raw.githubusercontent.com/alvosec/Blacklist-for-Proton/main/blacklist.ini
 
-cat blacklist.ini >> config.ini
+cat blacklist.ini >> /opt/ProtonMainNet/protonNode/config.ini
 ```
